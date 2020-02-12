@@ -1,8 +1,8 @@
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <ul class="navbar-nav mr-auto">
+    <nav class="navbar ">
+      <ul >
       </li>
             {%- if site.email -%}
-            <button  href="mailto:{{ site.email }}" class="btn"> <a class="fa fa-envelope" ></a> {{ site.email}}</button>
+            <button class="btn"> <a class="fa fa-envelope"  href="mailto:{{ site.email }}"  ></a> </button>
             {%- endif -%}
             {%- include social.html -%}
       </ul>
